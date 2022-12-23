@@ -100,8 +100,6 @@ body {
   margin: 1rem;
 }
 
-
-
 .product {
   --content-padding: 1.5rem;
   --content-spacing: 1rem;
@@ -114,12 +112,11 @@ body {
 }
 
 
-
 .product__content {
   padding: var(--content-padding);
   gap: var(--content-spacing);
   display: grid;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-align: center;
   font-family: var(--ff-base);
 }
@@ -128,17 +125,4 @@ body {
   font-size: 1.2rem;
   font-family: var(--ff-base);
   color: var(--clr--Darkblue);
-}
-
-@media(min-width:400px) {
-  .product__title {
-    font-size: 1.5rem;
-
-  }
-
-  .product__content {
-
-    font-size: 1.2rem;
-
-  }
 }
